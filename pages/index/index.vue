@@ -1,15 +1,15 @@
 <template>
 	<view class="content">
-		<iliyaCapsuleToys :giftImgList="giftImgList" :disabled="disabled" :resLv="resLv" :giftRes="giftRes"
+		<illyaCapsuleToys :giftImgList="giftImgList" :disabled="disabled" :resLv="resLv" :giftRes="giftRes"
 			:resBallImg="resBallImg" @start="start" @canNotStart="canNotStart" @ok="ok" />
 	</view>
 </template>
 
 <script>
-	import iliyaCapsuleToys from '../../uni_modules/iliya-capsule-toys/components/iliya-capsule-toys/iliya-capsule-toys.vue'
+	import illyaCapsuleToys from '../../uni_modules/iliya-capsule-toys/components/illya-capsule-toys/illya-capsule-toys.vue'
 	export default {
 		components: {
-			iliyaCapsuleToys
+			illyaCapsuleToys
 		},
 		data() {
 			return {
